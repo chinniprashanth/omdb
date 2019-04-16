@@ -1,8 +1,8 @@
 import urllib,ast
 
-movieTitle = raw_input("Please enter the movie title : ")
+movieTitle = raw_input("Enter the moviename for Rating : ")
 
-f =urllib.urlopen("http://www.omdbapi.com/?i=tt3896198&apikey=42040d6&t="+str(movieTitle)+"")
+f =urllib.urlopen("http://www.omdbapi.com/?&apikey=42040d6&t="+str(movieTitle)+"")
 data = f.readline()
 result =ast.literal_eval(data)
 
@@ -23,5 +23,5 @@ else:
     else:
         print "There is no review from Rotten Tomatoes for this movie... "
         
-    print "Actors : ",result['Actors']
-    print "Year : ",result['Year']
+    #print "Actors : ",result['Actors']
+   # print "Year : ",result['Year']
