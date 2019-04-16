@@ -1,15 +1,18 @@
-This repository contains Dockerfile and pythonscript 
+This repository contains Dockerfile and pythonscript:
+-----------------------------------------------------
 
 -> Base Ubuntu image
 -> Dockerfile
 -> main.py(python)
 
-Git Repo
+Git Repo:
+---------
 
 To test the project 
 -> clone the repository from github "https://github.com/chinniprashanth/omdb" 
 
-Usage
+Usage:
+------
 
 ->use the both pythonscript(mail.py) and Dockerfile to build the image 
 ->Build the image by using command
