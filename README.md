@@ -5,6 +5,11 @@ This repository contains Dockerfile and pythonscript:
 -> Dockerfile
 -> main.py(python)
 
+Prerequisite:
+-------------
+->Unix based operating system must be present
+->Docker must be installed in it.
+
 Git Repo:
 ---------
 
@@ -14,15 +19,14 @@ To test the project
 Usage:
 ------
 
-->Docker must be installed in your linux to run the dockerfile
 ->use the both pythonscript(mail.py) and Dockerfile to build the image 
 ->Build the image by using command
 
- docker build -t tagname .
+ '''docker build -t tagname . '''
 
 ->To create and run the container command 
 
- docker run -it --name containername/id  imageid/name
+''' docker run -it --name containername/id  imageid/name '''
 
 ->It will automatically execute the python file and it will ask you the movie name 
 
