@@ -27,11 +27,11 @@ Running the tests
 
 * To execute the task just run the script file "./script.sh".
 
-    a). Once you run the script it will create docker image.
+    .   Once you run the script it will create docker image.
   
-    b). With the help of ADD module it will copy the main.py file to your container path.
+    .   With the help of ADD module it will copy the main.py file to your container path.
   
-    c). And finally it will prompt you to pass an argument "enter the Movie Name" to see the output of the program.
+    .   And finally it will prompt you to pass an argument "enter the Movie Name" to see the output of the program.
   
 Authors
 --------
