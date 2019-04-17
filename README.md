@@ -19,18 +19,16 @@ Unix based operating system must be present
 Docker must be installed in it.
 
 
-Usage:
+Usage
 ------
 
 use Dockerfile to build the image
 
 Built With
-----------
+-----------
 
-'''
- 
     docker build -t imagename .
-                               '''
+                               
 
 
 This command will build the image and will get the image by using the image we can create a container
@@ -38,12 +36,10 @@ This command will build the image and will get the image by using the image we c
 To create and run the container 
 
 Running the tests
------------------
+------------------
 
-'''
-
-    docker run -it --name containername/id  imagename/id 
-                                                           '''
+     docker run -it --name containername/id  imagename/id 
+                                                           
 
 It will automatically execute the python file and it will ask you the movie name 
 
@@ -56,6 +52,7 @@ Else there is no Rotten Tomatoes rating in the movie list it will display no Rot
 
 
 Authors
+--------
 
 Chinniprashanth
 
