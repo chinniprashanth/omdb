@@ -21,12 +21,15 @@ Usage:
 
 ->use the both pythonscript(mail.py) and Dockerfile to build the image 
 ->Build the image by using command
-
- '''docker build -t tagname . '''
+'''
+ docker build -t tagname . 
+                            '''
 
 ->To create and run the container command 
 
-''' docker run -it --name containername/id  imageid/name '''
+'''
+ docker run -it --name containername/id  imageid/name 
+                                                     '''
 
 ->It will automatically execute the python file and it will ask you the movie name 
 
