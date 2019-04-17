@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t database .
-docker run -it database
+docker build -t omdb .
+docker run -it omdb
