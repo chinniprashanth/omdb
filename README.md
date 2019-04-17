@@ -1,7 +1,7 @@
 This repository contains Dockerfile and pythonscript:
 -----------------------------------------------------
 
--> Base Ubuntu image
+-> Base Ubuntu image 
 -> Dockerfile
 -> main.py(python)
 
@@ -14,6 +14,7 @@ To test the project
 Usage:
 ------
 
+->Docker must be installed in your linux to run the dockerfile
 ->use the both pythonscript(mail.py) and Dockerfile to build the image 
 ->Build the image by using command
 
@@ -27,4 +28,4 @@ Usage:
 
 ->when we given the movie name it will display the movie name and "Rotten Tomatoes rating"
 
-->Else there is no Rotten Tomatoes rating in the movie it will shows no Rotten Tomatoes ratings 
+->Else there is no Rotten Tomatoes rating in the movie it will display no Rotten Tomatoes ratings 
