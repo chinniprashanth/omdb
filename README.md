@@ -1,38 +1,62 @@
-This repository contains Dockerfile and pythonscript:
------------------------------------------------------
 
--> Base Ubuntu image 
--> Dockerfile
--> main.py(python)
-
-Prerequisite:
+Project Title
 -------------
-->Unix based operating system must be present
-->Docker must be installed in it.
 
-Git Repo:
----------
+OMDBAPI
 
-To test the project 
--> clone the repository from github "https://github.com/chinniprashanth/omdb" 
+Getting Started
+----------------
+
+clone the repository from github "https://github.com/chinniprashanth/omdb" 
+
+This repo will get you a copy of the project up and running on your local machine for testing purposes.
+
+Prerequisites
+-------------
+
+Unix based operating system must be present
+
+Docker must be installed in it.
+
 
 Usage:
 ------
 
-->use the both pythonscript(mail.py) and Dockerfile to build the image 
-->Build the image by using command
-'''
- docker build -t tagname . 
-                            '''
+use Dockerfile to build the image
 
-->To create and run the container command 
+Built With
+----------
 
 '''
- docker run -it --name containername/id  imageid/name 
-                                                     '''
+ 
+    docker build -t imagename .
+                               '''
 
-->It will automatically execute the python file and it will ask you the movie name 
 
-->when we given the movie name it will display the movie name and "Rotten Tomatoes rating"
+This command will build the image and will get the image by using the image we can create a container
 
-->Else there is no Rotten Tomatoes rating in the movie it will display no Rotten Tomatoes ratings 
+To create and run the container 
+
+Running the tests
+-----------------
+
+'''
+
+    docker run -it --name containername/id  imagename/id 
+                                                           '''
+
+It will automatically execute the python file and it will ask you the movie name 
+
+
+when we given the movie name it will display the movie name and "Rotten Tomatoes rating"
+
+
+Else there is no Rotten Tomatoes rating in the movie list it will display no Rotten Tomatoes ratings 
+
+
+
+Authors
+
+Chinniprashanth
+
+
