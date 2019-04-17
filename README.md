@@ -31,7 +31,7 @@ Running the tests
   
     -   With the help of ADD module it will copy the main.py file to your container path.
   
-    -   And finally it will prompt you to pass an argument "enter the Movie Name" to see the output of the program.
+    @   And finally it will prompt you to pass an argument "enter the Movie Name" to see the output of the program.
   
 Authors
 --------
