@@ -2,7 +2,7 @@
 Project Title
 -------------
 
-OMDBAPI
+This project aims to get the Rotten Tomatoes rating of a specific movie using OMDB
 
 Getting Started
 ----------------
