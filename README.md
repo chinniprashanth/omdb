@@ -29,9 +29,9 @@ Running the tests
 
     -   Once you run the script it will create docker image.
   
-    -   With the help of ADD module it will copy the main.py file to your container path.
+    -   With the help of COPY module it will copy the main.py file to your container path.
   
-    -   And finally it will prompt you to pass an argument "enter the Movie Name" to see the output of the program.
+    -   And finally it will prompt you to pass an argument "Enter the Movie Name" to see the output of the program.
   
 Authors
 --------
