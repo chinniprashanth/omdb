@@ -1,6 +1,6 @@
 import urllib,ast
 
-movieTitle = raw_input("Enter the MovieName : ")
+movieTitle = raw_input("Enter the Movie Name : ")
 
 f =urllib.urlopen("http://www.omdbapi.com/?&apikey=42040d6&t="+str(movieTitle)+"")
 data = f.readline()
